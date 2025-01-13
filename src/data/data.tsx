@@ -55,11 +55,11 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  // Portfolio: 'portfolio',
+  Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  // Testimonials: 'testimonials',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Full Stack Software Engineer, currently working at <a href="https://www.hybridbooking.com/" className="font-bold">Hybrid Booking</a> helping update and build a modern Reservation System based on Bali, Indonesia.
+        I'm a Full Stack Software Engineer, currently working at <a className="font-bold" href="https://www.hybridbooking.com/">Hybrid Booking</a> helping update and build a modern Reservation System based on Bali, Indonesia.
       </p>
     </>
   ),

@@ -34,6 +34,9 @@ const nextConfig = {
       },
     ],
   },
+  output: 'export',
+  basePath: '/my-resume',
+  assetPrefix: '/my-resume/',
 };
 
 module.exports = nextConfig;
